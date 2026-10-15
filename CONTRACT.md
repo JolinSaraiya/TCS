@@ -38,19 +38,22 @@ Rules: 15 items, dates spread across the 30 days before `AS_OF`, at least one du
   "items": [
     {
       "id": "a01",
-      "scores": { "tools": 0, "career": 0, "accessibility": 0, "noise_penalty": 0 },
-      "total": 0,
+      "scores": { "T": 85, "P": 90, "N": 95, "L": 80, "Q": 90 },
+      "total": 88,
       "decision": "recommended",
       "reason": "one line: why kept or filtered",
       "topic": "Tools",
-      "summary": "max 30 words, ONLY from excerpt",
-      "why_it_matters": "max 20 words, student-focused",
+      "summary": "max 30 words, What happened? ONLY from excerpt",
+      "why_it_matters": "max 20 words, The value to students",
+      "target_audience": "e.g., CS students, Python devs, job seekers (Who is it for?)",
+      "what_to_do_next": "e.g., Try Ollama command, apply on portal (What to do next)",
       "next_action": "read",
       "duplicate_of": null
     }
   ]
 }
 ```
+Formula: `total = round(0.35*T + 0.25*P + 0.20*N + 0.15*L + 0.05*Q)`
 Enums:
 - `decision`: `recommended` | `filtered`
 - `topic`: one of `TOPICS`
