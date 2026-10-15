@@ -25,13 +25,29 @@ def save_state(state: dict) -> None:
 
 
 def merge(items: list[dict], llm_out: dict) -> list[dict]:
-    """Input items + LLM item fields + status/edited/reading_time_min/date_flag."""
+    """Input items + LLM item fields + status/edited/reading_time_min/date_flag.
+
+    If an item has no LLM result, include it with decision='filtered' and reason='not scored'.
+    """
     by_id = {x["id"]: x for x in llm_out.get("items", [])}
     merged = []
     for it in items:
         ai = by_id.get(it["id"])
         if ai is None:
-            continue
+            # Item not scored by LLM — include as filtered with defaults
+            ai = {
+                "scores": {"T": 0, "P": 0, "N": 0, "L": 0, "Q": 0},
+                "total": 0,
+                "decision": "filtered",
+                "reason": "Not scored by AI pipeline.",
+                "topic": "Research",
+                "summary": it.get("excerpt", "")[:120],
+                "why_it_matters": "Not evaluated.",
+                "target_audience": "Unknown",
+                "what_to_do_next": "No action.",
+                "next_action": "skip",
+                "duplicate_of": None,
+            }
         m = {**it, **ai}
         m["reading_time_min"] = max(1, math.ceil(it.get("word_count", 0) / WORDS_PER_MIN))
         m["status"] = "pending"

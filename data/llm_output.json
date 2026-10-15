@@ -1,10 +1,306 @@
 {
-  "headline": "Open models, hiring shifts, and an API starter",
-  "challenge": "Call any hosted LLM API from a script and print one JSON field from its reply.",
+  "headline": "Open models, agent skills, and a free AI course",
+  "challenge": "Install Ollama, run 'ollama run llama3.3', and ask it to write a Python function that calls an API and parses the JSON response.",
   "items": [
-    {"id":"s01","scores":{"tools":36,"career":18,"accessibility":24,"noise_penalty":0},"total":78,"decision":"recommended","reason":"Open model students can run themselves.","topic":"Models","summary":"A new open-weight coding model runs on one consumer GPU and scores well on common coding benchmarks.","why_it_matters":"You can try a strong coding model locally without paid access.","next_action":"try","duplicate_of":null},
-    {"id":"s02","scores":{"tools":10,"career":28,"accessibility":22,"noise_penalty":0},"total":60,"decision":"recommended","reason":"Direct impact on entry-level engineering careers.","topic":"Career","summary":"A survey examines how AI tools change entry-level engineering roles and lists skills employers now request.","why_it_matters":"It shows which skills to build before applying for jobs.","next_action":"read","duplicate_of":null},
-    {"id":"s03","scores":{"tools":28,"career":15,"accessibility":28,"noise_penalty":0},"total":71,"decision":"recommended","reason":"Beginner-friendly, immediately usable.","topic":"Learning","summary":"A short guide shows how to call a hosted model and parse structured output for beginners.","why_it_matters":"Calling an LLM API is a core skill for building AI features.","next_action":"try","duplicate_of":null},
-    {"id":"s04","scores":{"tools":2,"career":2,"accessibility":5,"noise_penalty":-40},"total":0,"decision":"filtered","reason":"Corporate earnings: no student or engineering value.","topic":"Research","summary":"A large AI vendor reported quarterly revenue and investor guidance.","why_it_matters":"Little direct impact on student skills or tools.","next_action":"skip","duplicate_of":null}
+    {
+      "id": "a01",
+      "scores": {
+        "T": 90,
+        "P": 85,
+        "N": 90,
+        "L": 70,
+        "Q": 90
+      },
+      "total": 86,
+      "decision": "recommended",
+      "reason": "Open-weight model students can run locally without paid API access.",
+      "topic": "Models",
+      "summary": "Meta released Llama 3.3 70B, an open-weight model matching closed-model benchmarks, runnable on a single consumer GPU with quantization.",
+      "why_it_matters": "Students can experiment with a top-tier coding model for free on their own hardware.",
+      "target_audience": "CS students, ML researchers, open-source developers",
+      "what_to_do_next": "Run 'ollama run llama3.3:70b-q4' locally and test it on a coding assignment.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a02",
+      "scores": {
+        "T": 95,
+        "P": 90,
+        "N": 80,
+        "L": 75,
+        "Q": 95
+      },
+      "total": 88,
+      "decision": "recommended",
+      "reason": "Free for students, directly improves daily coding workflow with multi-file editing.",
+      "topic": "Tools",
+      "summary": "GitHub Copilot Workspace now supports autonomous multi-file editing from natural language, free for verified students.",
+      "why_it_matters": "Students can describe bugs in plain English and get multi-file fixes across a project automatically.",
+      "target_audience": "All CS students with GitHub Student Developer Pack",
+      "what_to_do_next": "Activate GitHub Student Pack and try Copilot Workspace on your next lab assignment.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a03",
+      "scores": {
+        "T": 60,
+        "P": 70,
+        "N": 70,
+        "L": 95,
+        "Q": 90
+      },
+      "total": 71,
+      "decision": "recommended",
+      "reason": "Directly impacts what skills students need for entry-level SWE jobs.",
+      "topic": "Career",
+      "summary": "Stanford AI Index reports 62% of entry-level SWE postings now require AI agent or prompt engineering skills.",
+      "why_it_matters": "Shows which skills to prioritize before applying for software engineering internships and jobs.",
+      "target_audience": "Final-year CS students, job seekers, career counselors",
+      "what_to_do_next": "Add an AI agent project to your resume and practice prompt engineering on free platforms.",
+      "next_action": "read",
+      "duplicate_of": null
+    },
+    {
+      "id": "a04",
+      "scores": {
+        "T": 40,
+        "P": 65,
+        "N": 75,
+        "L": 90,
+        "Q": 70
+      },
+      "total": 62,
+      "decision": "recommended",
+      "reason": "Directly relevant to Indian engineering students facing campus placements.",
+      "topic": "Career",
+      "summary": "Survey of 200 Indian recruiters shows candidates with AI tool proficiency get 30% higher starting offers.",
+      "why_it_matters": "Demonstrates the salary premium for practical AI skills in Indian campus placement rounds.",
+      "target_audience": "Indian engineering students preparing for campus placements",
+      "what_to_do_next": "Practice live coding with an AI assistant before your next mock interview.",
+      "next_action": "read",
+      "duplicate_of": null
+    },
+    {
+      "id": "a05",
+      "scores": {
+        "T": 85,
+        "P": 88,
+        "N": 95,
+        "L": 60,
+        "Q": 90
+      },
+      "total": 84,
+      "decision": "recommended",
+      "reason": "Free, fast model with JSON output support, ideal for student API projects.",
+      "topic": "Models",
+      "summary": "Google DeepMind launched Gemini 2.5 Flash with sub-second latency, free in Google AI Studio with native JSON output.",
+      "why_it_matters": "Students get a free, fast model for building real-time chat and code-completion projects.",
+      "target_audience": "CS students building API-powered projects, hackathon participants",
+      "what_to_do_next": "Sign into Google AI Studio and send your first structured JSON request to Gemini Flash.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a06",
+      "scores": {
+        "T": 82,
+        "P": 85,
+        "N": 95,
+        "L": 55,
+        "Q": 80
+      },
+      "total": 81,
+      "decision": "filtered",
+      "reason": "Duplicate of a05: same Gemini 2.5 Flash release covered by a higher-quality source.",
+      "topic": "Models",
+      "summary": "Google DeepMind released Gemini 2.5 Flash for real-time inference with low latency, free via Google AI Studio.",
+      "why_it_matters": "Same release as a05; Hugging Face blog provides more technical depth.",
+      "target_audience": "CS students, developers",
+      "what_to_do_next": "See primary source (a05) for details.",
+      "next_action": "skip",
+      "duplicate_of": "a05"
+    },
+    {
+      "id": "a07",
+      "scores": {
+        "T": 88,
+        "P": 92,
+        "N": 80,
+        "L": 65,
+        "Q": 85
+      },
+      "total": 84,
+      "decision": "recommended",
+      "reason": "Enables free, offline AI coding with local models, eliminating API costs for students.",
+      "topic": "Tools",
+      "summary": "Cursor IDE now supports local Ollama backends, letting students run coding AI entirely offline with open-weight models.",
+      "why_it_matters": "Students can use a professional AI code editor without paying for any API subscriptions.",
+      "target_audience": "Students who want AI coding help without API costs",
+      "what_to_do_next": "Install Cursor, connect it to Ollama, and try side-by-side model comparison on a project.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a08",
+      "scores": {
+        "T": 30,
+        "P": 20,
+        "N": 70,
+        "L": 35,
+        "Q": 75
+      },
+      "total": 38,
+      "decision": "filtered",
+      "reason": "Funding news, not a product feature. No direct student or coding impact.",
+      "topic": "Models",
+      "summary": "Cursor IDE raised a Series B at $2.5B valuation, planning enterprise expansion with SOC 2 compliance.",
+      "why_it_matters": "Funding rounds don't change the student experience of the free product.",
+      "target_audience": "Investors, enterprise buyers",
+      "what_to_do_next": "No student action needed.",
+      "next_action": "skip",
+      "duplicate_of": null
+    },
+    {
+      "id": "a09",
+      "scores": {
+        "T": 10,
+        "P": 5,
+        "N": 75,
+        "L": 5,
+        "Q": 85
+      },
+      "total": 25,
+      "decision": "filtered",
+      "reason": "Corporate earnings report with zero student coding or career relevance.",
+      "topic": "Research",
+      "summary": "Nvidia reported Q3 enterprise cloud revenue of $14.2B, up 18%, driven by hyperscaler GPU orders.",
+      "why_it_matters": "No direct impact on student skills, tools, or job readiness.",
+      "target_audience": "Investors, financial analysts",
+      "what_to_do_next": "No student action needed.",
+      "next_action": "skip",
+      "duplicate_of": null
+    },
+    {
+      "id": "a10",
+      "scores": {
+        "T": 85,
+        "P": 90,
+        "N": 50,
+        "L": 70,
+        "Q": 90
+      },
+      "total": 77,
+      "decision": "recommended",
+      "reason": "Free, open-source terminal coding agent usable by any student with an API key.",
+      "topic": "Tools",
+      "summary": "OpenAI released Codex CLI, an open-source terminal agent for multi-file edits, test generation, and git integration.",
+      "why_it_matters": "Students gain a free command-line AI coding assistant that integrates directly with their workflow.",
+      "target_audience": "Students comfortable with the terminal, open-source contributors",
+      "what_to_do_next": "Install Codex CLI via npm and try refactoring an existing project from the terminal.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a11",
+      "scores": {
+        "T": 70,
+        "P": 75,
+        "N": 40,
+        "L": 80,
+        "Q": 95
+      },
+      "total": 68,
+      "decision": "recommended",
+      "reason": "Teaches a core technique (RAG) with an open-source pipeline students can replicate.",
+      "topic": "Research",
+      "summary": "Researchers show RAG reduces hallucinations by 40% across five QA benchmarks, with an open-source pipeline for replication.",
+      "why_it_matters": "RAG is a must-know technique for building reliable AI apps in student projects and interviews.",
+      "target_audience": "ML students, NLP researchers, project teams building AI apps",
+      "what_to_do_next": "Clone the open-source RAG repo and run the notebook on a local dataset.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a12",
+      "scores": {
+        "T": 80,
+        "P": 95,
+        "N": 100,
+        "L": 90,
+        "Q": 90
+      },
+      "total": 90,
+      "decision": "recommended",
+      "reason": "Free, beginner-friendly course by Andrew Ng on the most in-demand AI skill.",
+      "topic": "Learning",
+      "summary": "Andrew Ng and LangChain released a free course teaching students to build AI agents in Python with runnable Jupyter notebooks.",
+      "why_it_matters": "AI agent development is the top skill employers want; this course teaches it for free in under 2 hours.",
+      "target_audience": "Beginners, CS undergrads, anyone preparing for AI interviews",
+      "what_to_do_next": "Enroll at deeplearning.ai and complete the first two modules this weekend.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a13",
+      "scores": {
+        "T": 80,
+        "P": 82,
+        "N": 70,
+        "L": 55,
+        "Q": 90
+      },
+      "total": 75,
+      "decision": "recommended",
+      "reason": "Improves the most popular student editor with better AI integration and Python support.",
+      "topic": "Tools",
+      "summary": "VS Code October update adds inline Copilot Chat with line-by-line diff previews and improved Python venv detection.",
+      "why_it_matters": "Students using VS Code get smarter AI suggestions with more control over accepting or rejecting changes.",
+      "target_audience": "All students using VS Code for coursework",
+      "what_to_do_next": "Update VS Code to v1.95 and try the new inline Copilot Chat on your current project.",
+      "next_action": "try",
+      "duplicate_of": null
+    },
+    {
+      "id": "a14",
+      "scores": {
+        "T": 20,
+        "P": 10,
+        "N": 60,
+        "L": 15,
+        "Q": 40
+      },
+      "total": 26,
+      "decision": "filtered",
+      "reason": "Unsupported hype claim with no data or peer-reviewed research cited.",
+      "topic": "Career",
+      "summary": "A startup CEO claims AI will replace 80% of jobs in 3 years, citing no research or data.",
+      "why_it_matters": "Unsubstantiated predictions cause unnecessary anxiety without actionable student guidance.",
+      "target_audience": "General public (not student-specific)",
+      "what_to_do_next": "Ignore unsupported predictions; focus on building verifiable AI skills instead.",
+      "next_action": "skip",
+      "duplicate_of": null
+    },
+    {
+      "id": "a15",
+      "scores": {
+        "T": 35,
+        "P": 25,
+        "N": 30,
+        "L": 20,
+        "Q": 30
+      },
+      "total": 29,
+      "decision": "filtered",
+      "reason": "Low-quality listicle with no benchmarks, pricing, or comparative analysis.",
+      "topic": "Tools",
+      "summary": "A Medium post lists 50 AI tools with brief descriptions but no benchmarks, pricing, or comparative data.",
+      "why_it_matters": "Lists without analysis waste student time and don't help evaluate tools meaningfully.",
+      "target_audience": "General readers (not targeted to students)",
+      "what_to_do_next": "Use curated sources like GitHub Trending or Hugging Face Spaces instead of listicles.",
+      "next_action": "skip",
+      "duplicate_of": null
+    }
   ]
 }
