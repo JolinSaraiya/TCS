@@ -1,27 +1,27 @@
 [
   {
     "id": "a01",
-    "title": "Meta releases Llama 3.3 70B with open weights",
+    "title": "Meta releases Llama 3 with open weights",
     "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/llama33",
+    "url": "https://huggingface.co/blog/llama3",
     "published": "2026-10-12",
-    "excerpt": "Meta has released Llama 3.3 70B, an open-weight large language model that matches closed-model performance on standard coding and reasoning benchmarks. The model can run on a single consumer GPU with quantization and is available under a permissive license for research and commercial use.",
+    "excerpt": "Meta has released Llama 3 70B, an open-weight large language model that matches closed-model performance on standard coding and reasoning benchmarks. The model can run on a single consumer GPU with quantization and is available under a permissive license for research and commercial use.",
     "word_count": 1400
   },
   {
     "id": "a02",
     "title": "GitHub Copilot Workspace launches multi-file autonomous editing",
     "source": "GitHub Blog",
-    "url": "https://github.blog/changelog/2026-10-10-copilot-workspace-multi-file",
+    "url": "https://github.blog/news-insights/product-news/github-copilot-workspace/",
     "published": "2026-10-10",
     "excerpt": "GitHub Copilot Workspace now supports autonomous multi-file editing from natural language prompts. Developers describe a bug or feature and the tool plans, edits, and tests across the entire repository. The feature is free for verified students through the GitHub Student Developer Pack.",
     "word_count": 1100
   },
   {
     "id": "a03",
-    "title": "Stanford AI Index 2026: Entry-level SWE roles now require AI agent skills",
+    "title": "Stanford AI Index: Entry-level SWE roles now require AI agent skills",
     "source": "Stanford HAI",
-    "url": "https://aiindex.stanford.edu/report/2026",
+    "url": "https://aiindex.stanford.edu/report/",
     "published": "2026-10-08",
     "excerpt": "The 2026 Stanford AI Index reports that 62 percent of entry-level software engineering job postings now list AI agent architecture or prompt engineering as a required or preferred skill. The report recommends universities update curricula to include hands-on LLM application development.",
     "word_count": 2400
@@ -30,7 +30,7 @@
     "id": "a04",
     "title": "How AI tools are reshaping campus placements in India",
     "source": "The Economic Times",
-    "url": "https://economictimes.com/jobs/ai-campus-placements-2026",
+    "url": "https://economictimes.indiatimes.com/jobs",
     "published": "2026-10-11",
     "excerpt": "A survey of 200 Indian recruiters finds that candidates who demonstrate practical AI tool proficiency receive 30 percent higher starting offers. Companies are adding live coding rounds with AI assistants to assess how well graduates collaborate with LLM-based tools.",
     "word_count": 1800
@@ -38,8 +38,8 @@
   {
     "id": "a05",
     "title": "Google DeepMind unveils Gemini 2.5 Flash with real-time streaming",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/technology/ai/gemini-2-5-flash",
+    "source": "Google DeepMind",
+    "url": "https://deepmind.google/technologies/gemini/flash/",
     "published": "2026-10-13",
     "excerpt": "Google DeepMind has launched Gemini 2.5 Flash, a lightweight model optimized for real-time streaming tasks. It offers sub-second latency for chat and code completion and is available free in Google AI Studio for developers. The model supports structured JSON output natively.",
     "word_count": 950
@@ -47,8 +47,8 @@
   {
     "id": "a06",
     "title": "DeepMind launches Gemini 2.5 Flash for fast AI inference",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/10/13/deepmind-gemini-flash",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/",
     "published": "2026-10-13",
     "excerpt": "Google DeepMind released Gemini 2.5 Flash today, a streamlined model designed for real-time inference with very low latency. The model is free for developers through Google AI Studio and targets chat and code-completion workloads with native JSON output support.",
     "word_count": 800
@@ -56,8 +56,8 @@
   {
     "id": "a07",
     "title": "Cursor IDE adds multi-model support and local Ollama backend",
-    "source": "Cursor Blog",
-    "url": "https://cursor.sh/blog/multi-model-ollama",
+    "source": "Cursor",
+    "url": "https://cursor.com/",
     "published": "2026-10-09",
     "excerpt": "Cursor IDE now lets developers switch between cloud and local LLM backends including Ollama. Students can run coding AI entirely offline using open-weight models, eliminating API costs. The update also adds side-by-side model comparison for code suggestions.",
     "word_count": 1200
@@ -65,8 +65,8 @@
   {
     "id": "a08",
     "title": "Cursor IDE raises Series B at $2.5 billion valuation",
-    "source": "Bloomberg",
-    "url": "https://bloomberg.com/news/2026-10-07-cursor-series-b",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/category/artificial-intelligence/",
     "published": "2026-10-07",
     "excerpt": "AI code editor Cursor has raised a Series B round at a 2.5 billion dollar valuation. The company reports 4 million monthly active developers and plans to expand its enterprise offering with SOC 2 compliance and team admin dashboards.",
     "word_count": 600
@@ -74,8 +74,8 @@
   {
     "id": "a09",
     "title": "Nvidia Q3 FY2027 enterprise cloud revenue rises 18 percent",
-    "source": "Reuters",
-    "url": "https://reuters.com/technology/nvidia-q3-2027-earnings",
+    "source": "Nvidia Newsroom",
+    "url": "https://nvidianews.nvidia.com/",
     "published": "2026-10-11",
     "excerpt": "Nvidia reported third-quarter enterprise cloud leasing revenue of 14.2 billion dollars, up 18 percent year over year. The growth was driven by hyperscaler GPU cluster orders. The company raised full-year guidance for its data center segment.",
     "word_count": 700
@@ -83,8 +83,8 @@
   {
     "id": "a10",
     "title": "OpenAI releases Codex CLI for terminal-based coding agents",
-    "source": "OpenAI Blog",
-    "url": "https://openai.com/index/codex-cli",
+    "source": "OpenAI GitHub",
+    "url": "https://github.com/openai",
     "published": null,
     "excerpt": "OpenAI has released Codex CLI, an open-source command-line tool that lets developers run AI coding agents directly in the terminal. It supports multi-file edits, test generation, and git integration. The tool is free and works with any OpenAI API key.",
     "word_count": 1000
@@ -93,7 +93,7 @@
     "id": "a11",
     "title": "arXiv: Retrieval-Augmented Generation improves factual accuracy by 40 percent",
     "source": "arXiv",
-    "url": "https://arxiv.org/abs/2026.14523",
+    "url": "https://arxiv.org/abs/2005.11401",
     "published": "2026-09-28",
     "excerpt": "Researchers demonstrate that adding a retrieval step before generation reduces hallucination rates by 40 percent across five question-answering benchmarks. The paper provides an open-source RAG pipeline that students can replicate with any embedding model and a vector store.",
     "word_count": 3200
@@ -101,8 +101,8 @@
   {
     "id": "a12",
     "title": "Free course: Build your first AI agent in Python with LangChain",
-    "source": "DeepLearning.AI",
-    "url": "https://deeplearning.ai/short-courses/ai-agents-langchain",
+    "source": "LangChain GitHub",
+    "url": "https://github.com/langchain-ai/langchain",
     "published": "2026-10-14",
     "excerpt": "Andrew Ng and LangChain have released a free short course that teaches students how to build autonomous AI agents using Python and LangChain. The course covers tool use, memory, and multi-step reasoning in under 2 hours with runnable Jupyter notebooks.",
     "word_count": 500
@@ -110,8 +110,8 @@
   {
     "id": "a13",
     "title": "VS Code October update brings native Copilot Chat inline editing",
-    "source": "Visual Studio Code Blog",
-    "url": "https://code.visualstudio.com/updates/v1_95",
+    "source": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/updates",
     "published": "2026-10-08",
     "excerpt": "The October 2026 VS Code update integrates Copilot Chat directly into the editor with inline diff previews. Developers can now accept or reject AI-suggested changes line by line. The update also improves Python virtual environment detection.",
     "word_count": 900
@@ -119,8 +119,8 @@
   {
     "id": "a14",
     "title": "AI will replace 80 percent of jobs within 3 years, says startup CEO",
-    "source": "Business Insider",
-    "url": "https://businessinsider.com/ai-replace-jobs-prediction-2026",
+    "source": "Business Insider Tech",
+    "url": "https://www.businessinsider.com/tech",
     "published": "2026-10-06",
     "excerpt": "The CEO of an AI recruitment startup claims that 80 percent of current white-collar jobs will be automated by artificial intelligence within three years. No peer-reviewed research or data was cited to support the prediction.",
     "word_count": 450
@@ -128,8 +128,8 @@
   {
     "id": "a15",
     "title": "Top 50 AI tools every developer must use in 2027 (listicle)",
-    "source": "Medium",
-    "url": "https://medium.com/@techblogger/top-50-ai-tools-2027",
+    "source": "DEV Community",
+    "url": "https://dev.to/t/ai",
     "published": "2026-09-20",
     "excerpt": "A blogger lists 50 AI-powered developer tools with brief descriptions, ranging from well-known platforms to obscure side projects. The list does not include benchmarks, pricing details, or comparative analysis.",
     "word_count": 2800
