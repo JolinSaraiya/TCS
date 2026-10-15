@@ -1,0 +1,7 @@
+streamlit>=1.38
+python-dotenv>=1.0
+requests>=2.31
+pydantic>=2.7
+# pick ONE LLM SDK (or just use requests against the REST API):
+groq>=0.9
+# google-generativeai>=0.8

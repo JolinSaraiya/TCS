@@ -1,0 +1,10 @@
+{
+  "headline": "Open models, hiring shifts, and an API starter",
+  "challenge": "Call any hosted LLM API from a script and print one JSON field from its reply.",
+  "items": [
+    {"id":"s01","scores":{"tools":36,"career":18,"accessibility":24,"noise_penalty":0},"total":78,"decision":"recommended","reason":"Open model students can run themselves.","topic":"Models","summary":"A new open-weight coding model runs on one consumer GPU and scores well on common coding benchmarks.","why_it_matters":"You can try a strong coding model locally without paid access.","next_action":"try","duplicate_of":null},
+    {"id":"s02","scores":{"tools":10,"career":28,"accessibility":22,"noise_penalty":0},"total":60,"decision":"recommended","reason":"Direct impact on entry-level engineering careers.","topic":"Career","summary":"A survey examines how AI tools change entry-level engineering roles and lists skills employers now request.","why_it_matters":"It shows which skills to build before applying for jobs.","next_action":"read","duplicate_of":null},
+    {"id":"s03","scores":{"tools":28,"career":15,"accessibility":28,"noise_penalty":0},"total":71,"decision":"recommended","reason":"Beginner-friendly, immediately usable.","topic":"Learning","summary":"A short guide shows how to call a hosted model and parse structured output for beginners.","why_it_matters":"Calling an LLM API is a core skill for building AI features.","next_action":"try","duplicate_of":null},
+    {"id":"s04","scores":{"tools":2,"career":2,"accessibility":5,"noise_penalty":-40},"total":0,"decision":"filtered","reason":"Corporate earnings: no student or engineering value.","topic":"Research","summary":"A large AI vendor reported quarterly revenue and investor guidance.","why_it_matters":"Little direct impact on student skills or tools.","next_action":"skip","duplicate_of":null}
+  ]
+}

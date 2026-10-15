@@ -1,0 +1,6 @@
+[
+  {"id":"s01","title":"SEED: Open coding model released","source":"Example Source","url":"https://example.com/seed-1","published":"2026-10-12","excerpt":"A new open-weight coding model can run on a single consumer GPU. It scores well on common coding benchmarks.","word_count":1200},
+  {"id":"s02","title":"SEED: Report on software engineering hiring","source":"Example Source","url":"https://example.com/seed-2","published":"2026-10-10","excerpt":"A new survey looks at how AI tools change entry-level engineering roles. It lists skills employers now ask for.","word_count":2400},
+  {"id":"s03","title":"SEED: Tutorial on building with an LLM API","source":"Example Source","url":"https://example.com/seed-3","published":"2026-10-13","excerpt":"A short guide shows how to call a hosted model and parse structured output. It targets beginners.","word_count":900},
+  {"id":"s04","title":"SEED: Vendor quarterly earnings","source":"Example Source","url":"https://example.com/seed-4","published":"2026-10-11","excerpt":"A large AI vendor reported quarterly revenue and investor guidance.","word_count":800}
+]
